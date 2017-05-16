@@ -1,5 +1,3 @@
-AANDEEL=${1:-arcelor.mit}
-TIJD=${2:-10}
-AFSTAND=${3:-7.27}
+TIJD=${1:-10}
 
-java FOLLOWME ${AANDEEL} ${TIJD} ${AFSTAND}
+java FOLLOWME2 ${TIJD}
