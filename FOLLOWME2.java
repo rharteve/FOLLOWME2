@@ -133,7 +133,6 @@ return sdf.format(cal.getTime());
       
             
              System.out.printf("FOLLOW %s ( with %d mins delays) afstand = %.2f %n", aandeel, sleepmin, AFSTAND);
-            }
 
              System.out.printf( "Koers %s op %s : %.2f = afstand=%.2f (%.0f %%) %n", aandeel, now(), HUIDIGEKOERS, afstand, perc);
 
@@ -179,7 +178,7 @@ return sdf.format(cal.getTime());
                catch ( InterruptedException e ) { 
                    	System.out.println( " Thread Interrupted ");
                }  //end-of-catch
-          //  } // end-of-if
+           } // end-of-if MAAR WELKE?
 
       } // Einde Loop wegaandoor
 
