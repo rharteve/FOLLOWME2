@@ -134,7 +134,7 @@ return sdf.format(cal.getTime());
             
              System.out.printf("FOLLOW %s ( with %d mins delays) afstand = %.2f %n", aandeel, sleepmin, AFSTAND);
 
-             System.out.printf( "Koers %s op %s : %.2f = afstand=%.2f (%.0f %%) %n", aandeel, now(), HUIDIGEKOERS, afstand, perc);
+             System.out.printf( "Koers %s op %s : %.2f = afstand=%.2f (%.1f %%) %n", aandeel, now(), HUIDIGEKOERS, afstand, perc);
 
                System.out.println("");
            
