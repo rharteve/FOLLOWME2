@@ -1,0 +1,3 @@
+rm FOLLOWME2.class
+javac FOLLOWME2.java
+java FOLLOWME2 1
