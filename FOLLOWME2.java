@@ -15,6 +15,10 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.Scanner;
 
+// -----------------------------------------
+// ISSUE met {} nog oplossen
+// FOLLOWME2 compiled niet!
+// -----------------------------------------
 
 // Start simple...
 public class FOLLOWME2 {
@@ -175,7 +179,7 @@ return sdf.format(cal.getTime());
                catch ( InterruptedException e ) { 
                    	System.out.println( " Thread Interrupted ");
                }  //end-of-catch
-            } // end-of-if
+          //  } // end-of-if
 
       } // Einde Loop wegaandoor
 
